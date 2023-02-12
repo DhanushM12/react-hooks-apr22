@@ -1,5 +1,7 @@
 
 import './App.css';
+import UseCallback from './hooks/UseCallback';
+import UseContext from './hooks/UseContext';
 import UseEffect from './hooks/UseEffect';
 import UseMemo from './hooks/UseMemo';
 import UseRef from './hooks/UseRef';
@@ -12,6 +14,8 @@ function App() {
         <UseEffect />
         <UseRef />
         <UseMemo />
+        <UseCallback />
+        <UseContext />
     </div>
   );
 }
